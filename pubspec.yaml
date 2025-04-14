@@ -1,4 +1,4 @@
-name: go_router
+name: go_router_example
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  go_router: ^14.8.1
 
 dev_dependencies:
   flutter_test:
