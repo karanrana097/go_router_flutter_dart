@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 
 class SecondScreen extends StatelessWidget {
@@ -11,10 +12,16 @@ class SecondScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('Second Screen')),
       body: Center(
-        child: Text(
-          'Hello, $username!',
-          style: TextStyle(fontSize: 24),
-        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Hello, $username!',
+              style: TextStyle(fontSize: 24),
+            ),
+            ElevatedButton(onPressed: (){context.go('/users');}, child: Text("Click if You are a User"))
+          ],
+        )
       ),
     );
   }
