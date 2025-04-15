@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:go_router_example/screens/sample_page.dart';
 
 // Home Screen with navigation button
 class HomeScreen extends StatelessWidget {

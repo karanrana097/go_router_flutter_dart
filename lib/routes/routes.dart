@@ -1,5 +1,4 @@
 import 'package:go_router/go_router.dart';
-import 'package:go_router_example/main.dart';
 import 'package:go_router_example/screens/dashboard_screen.dart';
 import 'package:go_router_example/screens/home_screen.dart';
 import 'package:go_router_example/screens/sample_page.dart';
